@@ -42,5 +42,5 @@ app.post('/enemy/create', (req, res) => {
 	res.send(enemies);
 });
 
-app.listen(3000, '66.96.160.153');
-console.log('started and listening on 66.96.160.153 .');
+app.listen(3000, '159.203.96.205');
+console.log('started and listening on 159.203.96.205 .');
