@@ -1,6 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
+
 app.use(express.json());
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Hello Unity Developers!');
@@ -40,7 +43,8 @@ app.post('/enemy/create', (req, res) => {
 	enemies = newEnemy;
 	console.log(enemies);
 	res.send(enemies);
-        header(“Access-Control-Allow-Origin: *“);
+  
+
 });
 
 app.listen(3000, '159.203.96.205');
