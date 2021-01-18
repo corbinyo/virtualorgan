@@ -40,6 +40,7 @@ app.post('/enemy/create', (req, res) => {
 	enemies = newEnemy;
 	console.log(enemies);
 	res.send(enemies);
+        header(“Access-Control-Allow-Origin: *“);
 });
 
 app.listen(3000, '159.203.96.205');
