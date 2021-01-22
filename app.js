@@ -46,8 +46,18 @@ app.post('/enemy/create', (req, res) => {
       "csharplo": req.body.csharplo,
       "chi": req.body.chi,
       "clo": req.body.clo,
+      "dhi": req.body.dhi,
+      "dlo": req.body.dlo,
       "dsharphi": req.body.dsharphi,
-      "dlo": req.body.dlo
+      "dsharphlo": req.body.dsharphlo,
+      "ehi": req.body.ehi,
+      "elo": req.body.elo,
+      "fhi": req.body.fhi,
+      "fmid": req.body.fmid,
+      "fsharphi": req.body.fsharphi,
+      "fsharpmid": req.body.fsharpmid,
+      "ghi": req.body.ghi,
+      "gsharp": req.body.gsharp
 	};
 
 	enemies = newEnemy;
