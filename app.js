@@ -11,16 +11,26 @@ app.get('/', (req, res) => {
 
 let enemies = [
 	{
-	  "a": "0.0",
-      "asharp": "0.0",
-      "b": "0.0",
-      "csharphi": "0.0",
-      "csharplo": "0.0",
-      "chi": "0.0",
-      "clo": "0.0",
-      "dsharphi": "0.0",
-      "dlo": "0.0"
-	}
+    "a": "0.0",
+    "asharp": "0.0",
+    "b": "0.0",
+    "chi": "0.0",
+    "clo": "0.0",
+    "csharphi": "0.0",
+    "csharplo": "0.0",
+    "dhi": "0.0",
+    "dlo": "0.0",
+    "dsharphi": "0.0",
+    "dsharphlo": "0.0",
+    "ehi": "0.0",
+    "elo": "0.0",
+    "fhi": "0.0",
+    "fmid": "0.0",
+    "fsharphi": "0.0",
+    "fsharpmid": "0.0",
+    "ghi": "0.0",
+    "gsharp": "0.0"
+  }
 ];
 
 app.get('/enemy', (req, res) => {
