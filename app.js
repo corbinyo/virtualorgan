@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 let enemies = [
 	{
-    "name": "",
+    "name": "swag man",
     "a": "0.0",
     "asharp": "0.0",
     "b": "0.0",
