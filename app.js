@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 let enemies = [
 	{
-    "a": "0.0",
+    "a": "0.3",
     "asharp": "0.0",
     "b": "0.0",
     "chi": "0.0",
