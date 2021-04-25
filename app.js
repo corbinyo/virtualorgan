@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 let enemies = [
 	{
-    "name": "virtual organ person"
+    "name": "virtual organ person",
     "a": "0.0",
     "asharp": "0.0",
     "b": "0.0",
