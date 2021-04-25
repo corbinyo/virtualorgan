@@ -17,7 +17,7 @@ let names = [
 ];
 
 app.get('/name', (req, res) => {
-    res.send(namies);
+    res.send(names);
 });
 
 app.post('/name/create', (req, res) => {
