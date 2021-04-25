@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 let enemies = [
 	{
-    "name": "virtual organ person",
+    "name": " ",
     "a": "0.0",
     "asharp": "0.0",
     "b": "0.0",
@@ -40,7 +40,7 @@ app.get('/enemy', (req, res) => {
 
 app.post('/enemy/create', (req, res) => {
 	let newEnemy = {
-    "name": req.body.name,
+      "name": req.body.name,
       "a": req.body.a,
       "asharp": req.body.asharp,
       "b": req.body.b,
