@@ -10,11 +10,10 @@ app.get('/', (req, res) => {
 });
 
 
-let names = [
+let names = 
   {
     "name": "swag man"
- }
-];
+ };
 
 app.get('/name', (req, res) => {
     res.send(names);
