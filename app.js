@@ -9,9 +9,31 @@ app.get('/', (req, res) => {
     res.send('Hello Unity Developers!');
 });
 
+
+let names = [
+  {
+    "name": "swag man"
+ }
+];
+
+app.get('/name', (req, res) => {
+    res.send(namies);
+});
+
+app.post('/name/create', (req, res) => {
+  let newName = {
+      "name": req.body.name,     
+  };
+
+  namies = newName;
+  console.log(namies);
+  res.send(namies);
+
+});
+
+
 let enemies = [
 	{
-    "name": "swag man",
     "a": "0.0",
     "asharp": "0.0",
     "b": "0.0",
