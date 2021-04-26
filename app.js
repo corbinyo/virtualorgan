@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
 
 let names = 
   {
+ 
     "name": " "
  };
 
@@ -24,9 +25,9 @@ app.post('/name/create', (req, res) => {
       "name": req.body.name,     
   };
 
-  namies = newName;
-  console.log(namies);
-  res.send(namies);
+  names = newName;
+  console.log(names);
+  res.send(names);
 
 });
 
