@@ -10,6 +10,20 @@ app.get('/', (req, res) => {
 });
 
 
+let welcome = 
+  {
+ 
+    "welcome": "welcome to the virtual organ "
+ };
+
+app.get('/welcome', (req, res) => {
+    res.send(welcome);
+});
+console.log(welcome);
+  res.send(welcome);
+
+
+
 let names = 
   {
  
