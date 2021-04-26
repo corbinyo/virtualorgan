@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 let names = 
   {
-    "name": "swag man"
+    "name": " "
  };
 
 app.get('/name', (req, res) => {
