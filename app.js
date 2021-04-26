@@ -9,21 +9,6 @@ app.get('/', (req, res) => {
     res.send('Hello Unity Developers!');
 });
 
-
-let welcome = 
-  {
- 
-    "welcome": "welcome to the virtual organ "
- };
-
-app.get('/welcome', (req, res) => {
-    res.send(welcome);
-});
-console.log(welcome);
-  res.send(welcome);
-
-
-
 let names = 
   {
  
@@ -104,6 +89,22 @@ app.post('/enemy/create', (req, res) => {
   
 
 });
+
+
+
+let welcome = 
+  {
+ 
+    "welcome": "welcome to the virtual organ "
+ };
+
+app.get('/welcome', (req, res) => {
+    res.send(welcome);
+});
+
+
+
+
 
 app.listen(3000, '159.203.96.205');
 console.log('started and listening on 159.203.96.205, port 3000');
